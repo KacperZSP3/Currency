@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Currency.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Kurs NBP"
+                   x:Name="lblNBP"
+                   FontSize="40"
+                   />
+            <DatePicker
+                x:Name="dpData"
+                MinimumDate="2003-02-01"
+                />
+
+            <Button
+                Text="EUR"
+                Clicked="btnGetDataClickedEUR"
+                />
+
+            <Button
+                Text="USD"
+                Clicked="btnGetDataClickedUSD"
+                />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

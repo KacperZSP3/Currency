@@ -1,0 +1,1 @@
+C:\Users\Kacper\source\repos\Currency\Currency.csproj;x64
